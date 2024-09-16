@@ -5,6 +5,6 @@
 
   <remote name="yocto" fetch="https://github.com/yoctoproject"/>
   
-  <project name="poky" path="sources/poky" remote="yocto" revision="refs/heads" upstream="kirkstone"/>
+  <project name="poky" path="sources/poky" remote="yocto" revision="refs/heads/kirkstone"/>
 
 </manifest>

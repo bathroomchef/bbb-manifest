@@ -3,7 +3,7 @@
 
   <default sync-j="2"/>
 
-  <remote name="yocto" fetch="https://git.yoctoproject.org/poky"/>
+  <remote name="yocto" fetch="https://github.com/yoctoproject/poky.git"/>
   
   <project name="poky" path="sources/poky" remote="yocto" revision="main" upstream="kirkstone"/>
 

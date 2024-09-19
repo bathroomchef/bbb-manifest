@@ -6,7 +6,5 @@
   <remote name="yocto" fetch="https://github.com/yoctoproject"/>
   
   <project name="poky" path="sources/poky" remote="yocto" revision="refs/heads/kirkstone"/>
-    <linkfile dest="oe-init-build-env" src="oe-init-build-env"/>
-  </project>
 
 </manifest>

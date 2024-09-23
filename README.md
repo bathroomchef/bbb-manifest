@@ -10,3 +10,7 @@ repo sync
 cd sources/poky/
 
 source oe-init-build-env
+
+# To flash the image
+sudo dd if=core-image-full-cmdline-beaglebone-yocto.wic of=/dev/sd{device} bs=1M status=progress conv=fsync oflag=sync
+

@@ -4,7 +4,11 @@
   <default sync-j="2"/>
 
   <remote name="yocto" fetch="https://github.com/yoctoproject"/>
+  <remote name="rachelliu" fetch="https://github.com/bathroomchef"/>
   
   <project name="poky" path="sources/poky" remote="yocto" revision="refs/heads/kirkstone"/>
+
+  <project name="meta-hello-example" path="sources/poky" remote="rachelliu" revision="recipe-compile">
+      <linkfile src="environment-script" dest="environment-script"/>
 
 </manifest>

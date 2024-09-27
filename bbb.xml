@@ -10,5 +10,6 @@
 
   <project name="meta-hello-example" path="sources/poky" remote="rachelliu" revision="recipe-compile">
       <linkfile src="environment-script" dest="environment-script"/>
+  </project>
 
 </manifest>

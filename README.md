@@ -7,9 +7,8 @@ repo sync
 
 
 # To source the environment for Yocto
-cd sources/poky/
 
-source oe-init-build-env
+source environment-script build
 
 
 # To build the image

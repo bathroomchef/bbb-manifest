@@ -1,10 +1,14 @@
 # bbb-manifest
 Manifest for the Beaglebone Black board
 
-# A. To pull the manifest from main
+# To pull the manifest
+
+A. Pull from main
+
 repo init -u https://github.com/bathroomchef/bbb-manifest.git -m bbb.xml
 
-# B. To pull the mainifest from a branch
+B. Pull from a branch
+
 repo init -u https://github.com/bathroomchef/bbb-manifest.git -b {branch_name} -m bbb.xml
 
 repo sync

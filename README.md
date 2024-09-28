@@ -12,7 +12,7 @@ source environment-script build
 
 
 # To build the image
-bibake core-image-full-cmdline
+bitbake core-image-full-cmdline
 
 
 

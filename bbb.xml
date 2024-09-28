@@ -8,7 +8,7 @@
   
   <project name="poky" path="sources/poky" remote="yocto" revision="refs/heads/kirkstone"/>
 
-  <project name="meta-hello-example" path="sources/meta-hello-example" remote="rachelliu" revision="main">
+  <project name="meta-hello-example" path="sources/meta-hello-example" remote="rachelliu" revision="feature/cmake-and-cpp">
       <linkfile src="environment-script" dest="environment-script"/>
   </project>
 

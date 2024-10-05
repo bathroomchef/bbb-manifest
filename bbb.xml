@@ -12,6 +12,6 @@
       <linkfile src="environment-script" dest="environment-script"/>
   </project>
 
-  <project name="meta-server" path="sources/poky" remote="rachelliu" revision="feature/initial-commit"/>
+  <project name="meta-server" path="sources/meta-server" remote="rachelliu" revision="feature/initial-commit"/>
 
 </manifest>

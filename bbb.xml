@@ -6,7 +6,7 @@
   <remote name="yocto" fetch="https://github.com/yoctoproject"/>
   <remote name="rachelliu" fetch="https://github.com/bathroomchef"/>
   
-  <project name="poky" path="sources/poky" remote="yocto" revision="refs/heads/kirkstone"/>
+  <project name="poky" path="sources/poky" remote="yocto" revision="master"/>
 
   <project name="meta-hello-example" path="sources/meta-hello-example" remote="rachelliu" revision="main">
       <linkfile src="environment-script" dest="environment-script"/>

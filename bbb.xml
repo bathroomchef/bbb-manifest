@@ -5,6 +5,7 @@
 
   <remote name="yocto" fetch="https://github.com/yoctoproject"/>
   <remote name="rachelliu" fetch="https://github.com/bathroomchef"/>
+  <remote name="oe" fetch="https://github.com/openembedded"/>
   
   <project name="poky" path="sources/poky" remote="yocto" revision="refs/heads/kirkstone"/>
 
@@ -13,5 +14,6 @@
   </project>
 
   <project name="meta-server" path="sources/meta-server" remote="rachelliu" revision="feature/initial-commit"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="oe" revision="refs/heads/kirkstone"/>
 
 </manifest>
